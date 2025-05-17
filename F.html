@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FU</title>
+</head>
+<style>
+    input{
+        color: black;
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 100px;
+        background-color: aqua;
+        font-size: 20px;
+        display: flexbox;
+    }
+    div{
+        display: none;
+    }
+    #img3{
+        display: none;
+    }
+
+</style>
+<body>
+    <div id="img2">
+        <img src="mlzoi.jpg" alt="" id="img3">
+        <h1>YOU GAY</h1>
+        <img src="images.jpg" alt="" width="500" id="img">
+        <input type="button" value="ចុចមូយទៀត" onclick="pic2()">
+    </div>
+    <input type="button" value="click" onclick="pic()">
+    
+</body>
+<script>
+    function pic(){
+        document.getElementById("img2").style.display="block";
+    }
+    function pic2(){
+        document.getElementById("img3").style.display="block";
+    }
+</script>
+</html>
